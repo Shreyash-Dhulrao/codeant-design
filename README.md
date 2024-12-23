@@ -1,8 +1,17 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hello This is Shreyash Dhulrao, Here is some information about this design:
 
-Currently, two official plugins are available:
+This project is made using React+Vite, Tailwind CSS for designing, and some custom icons, font(Noto, Change if you have one). 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To run this project just type 
+
+`npm run dev`
+
+in the command prompt, when you are inside this folder. This is an dynamic project, so if you want to use it directly to your project you can use it just you have to replace the constant values to your given values or fetching values 
+
+If you have any problems regarding this project please inform me from this contact info: 
+Email: shreyashdhularao@gmail.com.
+Phone No: 7057070480.
+
+

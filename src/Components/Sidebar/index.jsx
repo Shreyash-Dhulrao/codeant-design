@@ -18,43 +18,43 @@ const main = () => {
     <div className=' font-noto'>
 
       {/* Desktop */}
-      <div className='p-2 md:block hidden w-56 h-screen bg-white border border-zinc-300  fixed '>
+      <div className='p-2 md:block hidden xl:w-56 w-1/6 h-screen bg-white border border-zinc-300  fixed '>
         <img src={arr.mainIcon} alt="" className='w-48 ' />
-        <div className='flex flex-col items-start h-[630px] justify-between '>
+        <div className='flex flex-col items-start xl:h-[92%] h-[95%] bg-red-300 justify-between '>
           <div className='flex flex-col gap-1'>
-            <button className='flex text-wrap px-3 py-2 mb-3 items-center justify-center border border-zinc-500 rounded-md gap-2  w-52'>
+            <button className='flex text-wrap px-3 py-2 mb-3 items-center justify-center border border-zinc-500 rounded-md gap-2  xl:w-52 w-3/4'>
               <p className='truncate'>{name}</p>
               <img src={arr.down} alt="" className='w-6 ' />
             </button>
-            <Link to='/' className='flex items-center w-52 bg-blue-600 text-white px-3 py-2 gap-3 rounded-md'>
+            <Link to='/' className='flex items-center w-52 bg-blue-600 text-white px-3 py-2 gap-3 rounded-md xl:w-52 w-3/4'>
               <Home className='w-5' />
               <p>Repositories</p>
             </Link>
-            <Link to='/' className='flex items-center w-52 px-3 py-2 gap-3 rounded-md '>
+            <Link to='/' className='flex items-center w-52 px-3 py-2 gap-3 rounded-md  xl:w-52 w-3/4'>
               <Code className='w-5' />
               <p>AI Code Review</p>
             </Link>
-            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md'>
+            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md xl:w-52 w-3/4'>
               <Cloud className='w-5' />
               <p>Cloud</p>
             </Link>
-            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md'>
+            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md xl:w-52 w-3/4'>
               <Book className='w-5' />
               <p>How to Use</p>
             </Link>
-            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md'>
+            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md xl:w-52 w-3/4'>
               <Settings className='w-5' />
               <p>Settings</p>
             </Link>
           </div>
 
 
-          <div className=' items-end '>
-            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md'>
+          <div className=' '>
+            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md xl:w-52 w-3/4'>
               <Phone className='w-5' />
               <p>Support</p>
             </Link>
-            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md'>
+            <Link className='flex items-center w-52 px-3 py-2 gap-3 rounded-md xl:w-52 w-3/4'>
               <Signout className='w-5' />
               <p>Logout</p>
             </Link>
